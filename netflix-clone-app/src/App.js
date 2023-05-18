@@ -1,5 +1,6 @@
 import "./App.css";
 import Banner from "./Banner";
+import Nav from "./Nav";
 import Row from "./Row";
 import requests from "./requests";
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="app ">
       {/* Nav */}
-
+      <Nav />
       {/* Banner */}
 
       <Banner />
